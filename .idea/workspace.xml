@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8951c9ec-1f91-4c6a-b665-f14644b6843a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/Client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExplodingKittensReboot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/Server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/main.py" afterDir="false" />
+    <list default="true" id="8951c9ec-1f91-4c6a-b665-f14644b6843a" name="Changes" comment="Setup Project Structure">
+      <change afterPath="$PROJECT_DIR$/Client/protocol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExplodingKittensReboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ExplodingKittensReboot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="27v5LUtCI8yhgycjSw3RyoV8moG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,11 +40,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/anshroid/IdeaProjects/ExplodingKittensReboot/Server/main.py",
+    "last_opened_file_path": "/home/anshroid/IdeaProjects/WSTest/websocket.py",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RunManager" selected="Python.Server">
@@ -104,11 +108,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650187667627</updated>
-      <workItem from="1650187670259" duration="339000" />
+      <workItem from="1650187670259" duration="4320000" />
     </task>
+    <task id="LOCAL-00001" summary="Setup Project Structure">
+      <created>1650188048481</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650188048481</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Setup Project Structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup Project Structure" />
   </component>
 </project>
