@@ -1,3 +1,4 @@
+import struct
 from asyncio import Task
 from typing import Optional, List, TYPE_CHECKING
 
@@ -18,4 +19,7 @@ class Player:
         self.packet_queue: bytes = b'\x00'
 
     def set_game(self, game) -> None:
-        self.current_game = game
+        self.current_game: Game = game
+
+    def send_error(self, error: str):
+        self.packet_queue += struct.pack(f'!B H {len(error)}s', 0x11, len(error), error)

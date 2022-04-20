@@ -42,7 +42,7 @@ async def handle(websocket: WebSocketServerProtocol, path):
     while True:
         try:
             data = websocket.recv()
-            # Decrypt incoming data with secret
+            # TODO: Decrypt incoming data with secret
             data = data
             while len(data) > 0:
                 data = handler.handle_packet(data, player)
@@ -58,8 +58,7 @@ async def handle(websocket: WebSocketServerProtocol, path):
                                 0x03,
                                 len([game for game in handler.games if not game.started]),
                                 *sum([[game.game_id,
-                                       int(f"{1 if game.imploding else 0}" +
-                                           f"{1 if game.has_imploding else 0}", 2),
+                                       int(f"{int(game.imploding)}{int(game.has_imploding)}", 2),
                                        len(game.players),
                                        game.player_limit,
                                        len(game.players[0].name),

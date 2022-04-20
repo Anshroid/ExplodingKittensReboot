@@ -1,4 +1,5 @@
 import random
+import struct
 from typing import List, TYPE_CHECKING
 
 if TYPE_CHECKING:
@@ -14,6 +15,7 @@ class Game:
         self.owner: Player = start_player
         self.players: List[Player] = [start_player]
         self.spectators: List[Player] = []
+        self.banned_players: List[Player] = []
         self.player_limit: int = num_players
 
         self.imploding: bool = imploding
@@ -23,6 +25,8 @@ class Game:
         self.discard_pile: List[int] = []
 
         self.turn: int = 0
+        self.turn_count: int = 0
+        self.turn_direction: int = 1
         self.implosion_distance: int = 0
 
         self.started: bool = False
@@ -55,7 +59,7 @@ class Game:
                     [DRAWFROMBOTTOM] * ((4 * game_size) if self.imploding else 0) + \
                     [FERALCAT] * ((4 * game_size) if self.imploding else 0) + \
                     [ALTERTHEFUTURE] * ((4 * game_size) if self.imploding else 0) + \
-                    [TARGETTEDATTACK] * ((3 * game_size) if self.imploding else 0)
+                    [TARGETEDATTACK] * ((3 * game_size) if self.imploding else 0)
 
         random.shuffle(self.deck)  # Shuffle the deck
 
@@ -63,9 +67,10 @@ class Game:
             for i in range(4):
                 player.cards.append(self.deck.pop())  # Give the player the top 4 cards
             player.cards.append(1)  # Give a defuse to each player
+            player.cards.sort()  # Sort the cards
 
-        self.deck += [0 for player in self.players[1:]]  # One Exploding Kitten for each player EXCEPT the winner
-        self.deck += [1 for i in range((6 * game_size) - len(self.players))]
+        self.deck += [0] * (len(self.players) - 1)  # One Exploding Kitten for each player EXCEPT the winner
+        self.deck += [1] * ((6 * game_size) - len(self.players))
         # 6 defuses in a game-size, one has already been given out to each player
 
         random.shuffle(self.deck)
@@ -77,4 +82,13 @@ class Game:
         if self.started:
             self.discard_pile += player.cards
             self.players.remove(player)
+
+    def advance_turn(self):
+        self.turn = (self.turn + 1) % len(self.players)
+
+    def broadcast_message(self, message: str):
+        for player in self.players:
+            player.packet_queue += struct.pack(f"!B H {len(message)}s", 0x0B, len(message), message)
+
+
 

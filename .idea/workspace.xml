@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8951c9ec-1f91-4c6a-b665-f14644b6843a" name="Changes" comment="">
+    <list default="true" id="8951c9ec-1f91-4c6a-b665-f14644b6843a" name="Changes" comment="Set up basic frame in protocol.py">
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExplodingKittensReboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ExplodingKittensReboot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Server/Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/cards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/protocol.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/protocol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +46,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Server/cards.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Server/game.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Server/main.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Server/player.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Server/protocol.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -51,8 +68,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "last_opened_file_path": "/home/anshroid/IdeaProjects/ExplodingKittensReboot/Server",
+    "last_opened_file_path": "/home/anshroid/IdeaProjects/WSTest/websocket.py",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,19 +76,15 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.editor.code.editing"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Server" />
-      <recent name="$PROJECT_DIR$/Client" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Server" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Client">
+  <component name="RunManager" selected="Python.Server">
     <configuration name="Client" type="PythonConfigurationType" factoryName="Python">
       <module name="Client" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,7 +92,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/Client/venv/bin/python" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Client" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -102,7 +114,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Server" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -117,6 +129,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.Client" />
+      <item itemvalue="Python.Server" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -130,7 +146,9 @@
       <workItem from="1650226274611" duration="1219000" />
       <workItem from="1650227511931" duration="3148000" />
       <workItem from="1650411094690" duration="132000" />
-      <workItem from="1650411259622" duration="10406000" />
+      <workItem from="1650411259622" duration="4688000" />
+      <workItem from="1650473789192" duration="218000" />
+      <workItem from="1650474054671" duration="8445000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Project Structure">
       <created>1650188048481</created>
@@ -146,35 +164,26 @@
       <option name="project" value="LOCAL" />
       <updated>1650192018980</updated>
     </task>
-    <task id="LOCAL-00003" summary="Separate card definitions into their own file&#10;Copy over game deck setup from old project&#10;Add nop (Upstream + Downstream) and list_game (Downstream) protocols&#10;Add a player structure to help keep track">
-      <created>1650416312131</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1650416312131</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Refactor cards list into bytes&#10;Refactor protocol handling into separate class&#10;Write out all planned protocol packets">
-      <created>1650473564721</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1650473564721</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup Project Structure" />
     <MESSAGE value="Set up basic frame in protocol.py" />
-    <MESSAGE value="Separate card definitions into their own file&#10;Copy over game deck setup from old project&#10;Add nop (Upstream + Downstream) and list_game (Downstream) protocols&#10;Add a player structure to help keep track" />
-    <MESSAGE value="Refactor cards list into bytes&#10;Refactor protocol handling into separate class&#10;Write out all planned protocol packets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor cards list into bytes&#10;Refactor protocol handling into separate class&#10;Write out all planned protocol packets" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <option name="LAST_COMMIT_MESSAGE" value="Set up basic frame in protocol.py" />
   </component>
 </project>
