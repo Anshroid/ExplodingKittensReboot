@@ -10,7 +10,10 @@ from cards import *
 class Game:
     def __init__(self, game_id, start_player, num_players, imploding, implodes):
         self.game_id: int = game_id
+
+        self.owner: Player = start_player
         self.players: List[Player] = [start_player]
+        self.spectators: List[Player] = []
         self.player_limit: int = num_players
 
         self.imploding: bool = imploding

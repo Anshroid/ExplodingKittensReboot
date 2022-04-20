@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8951c9ec-1f91-4c6a-b665-f14644b6843a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Server/game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/protocol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/protocol.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/cards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client/cards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,24 +49,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/anshroid/IdeaProjects/WSTest/websocket.py&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "last_opened_file_path": "/home/anshroid/IdeaProjects/ExplodingKittensReboot/Server",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "settings.space"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Server" />
+      <recent name="$PROJECT_DIR$/Client" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Server" />
     </key>
@@ -129,7 +134,7 @@
       <workItem from="1650226274611" duration="1219000" />
       <workItem from="1650227511931" duration="3148000" />
       <workItem from="1650411094690" duration="132000" />
-      <workItem from="1650411259622" duration="4688000" />
+      <workItem from="1650411259622" duration="9594000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Project Structure">
       <created>1650188048481</created>
@@ -145,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650192018980</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Separate card definitions into their own file&#10;Copy over game deck setup from old project&#10;Add nop (Upstream + Downstream) and list_game (Downstream) protocols&#10;Add a player structure to help keep track">
+      <created>1650416312131</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650416312131</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +166,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup Project Structure" />
     <MESSAGE value="Set up basic frame in protocol.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up basic frame in protocol.py" />
+    <MESSAGE value="Separate card definitions into their own file&#10;Copy over game deck setup from old project&#10;Add nop (Upstream + Downstream) and list_game (Downstream) protocols&#10;Add a player structure to help keep track" />
+    <option name="LAST_COMMIT_MESSAGE" value="Separate card definitions into their own file&#10;Copy over game deck setup from old project&#10;Add nop (Upstream + Downstream) and list_game (Downstream) protocols&#10;Add a player structure to help keep track" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
