@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8951c9ec-1f91-4c6a-b665-f14644b6843a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Server/protocol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/Client/cards.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +60,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "settings.space"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -134,7 +130,7 @@
       <workItem from="1650226274611" duration="1219000" />
       <workItem from="1650227511931" duration="3148000" />
       <workItem from="1650411094690" duration="132000" />
-      <workItem from="1650411259622" duration="9594000" />
+      <workItem from="1650411259622" duration="10406000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Project Structure">
       <created>1650188048481</created>
@@ -157,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650416312131</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refactor cards list into bytes&#10;Refactor protocol handling into separate class&#10;Write out all planned protocol packets">
+      <created>1650473564721</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650473564721</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +170,8 @@
     <MESSAGE value="Setup Project Structure" />
     <MESSAGE value="Set up basic frame in protocol.py" />
     <MESSAGE value="Separate card definitions into their own file&#10;Copy over game deck setup from old project&#10;Add nop (Upstream + Downstream) and list_game (Downstream) protocols&#10;Add a player structure to help keep track" />
-    <option name="LAST_COMMIT_MESSAGE" value="Separate card definitions into their own file&#10;Copy over game deck setup from old project&#10;Add nop (Upstream + Downstream) and list_game (Downstream) protocols&#10;Add a player structure to help keep track" />
+    <MESSAGE value="Refactor cards list into bytes&#10;Refactor protocol handling into separate class&#10;Write out all planned protocol packets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor cards list into bytes&#10;Refactor protocol handling into separate class&#10;Write out all planned protocol packets" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -19,4 +19,3 @@ class Player:
 
     def set_game(self, game) -> None:
         self.current_game = game
-
